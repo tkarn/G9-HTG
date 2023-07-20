@@ -1338,7 +1338,7 @@ df <- pivot_longer(change.AB, cols = -1)
 colnames(df) <- c("Genes", "Treatment arm - compartment", "value")
 
 
-fn <- "out/Figure-6f.pdf"
+fn <- "out/Fig6f.pdf"
 
 pdf(file = fn, width = 5.5, height = 6)
 ggplot(df,
@@ -1509,7 +1509,7 @@ df <- pivot_longer(change.AC, cols = -1)
 colnames(df) <- c("Genes", "Treatment arm - compartment", "value")
 
 
-fn <- "out/Figure-6g.pdf"
+fn <- "out/Fig6g.pdf"
 
 pdf(file = fn, width = 5.5, height = 6)
 ggplot(df,
@@ -1545,7 +1545,7 @@ dev.off()
 
 #'\newpage
 #'
-#' # VALIDATION ANALYSiS
+#' # VALIDATION ANALYSIS
 #' 
 #' **Assemble validation RNA-Seq datasets**
 #' 
@@ -1748,7 +1748,6 @@ library("survival")
 val.genes <- g0.all  # all 2549 genes from HTG panel
 
 
-
 #################################
 ###  Dataset scanb.htg.Rseq  ###
 #################################
@@ -1834,6 +1833,9 @@ HRtab.g9.scanb.scaled <- left_join(HRtab.g9, HRtab.scanb.scaled,
 #
 #'  *FINDING-cohort G9*
 
+
+val.genes.set <- "g9.pCR.DDFS.scatter.genes"
+val.genes <- get(val.genes.set)
 
 
 plotdat <- gene.class %>% 
@@ -1946,11 +1948,6 @@ dev.off()
 #' 
 #' **Fig. 6j 6k**   
 #
-
-library(dplyr)
-library(ggplot2)
-library(ggrepel)
-
 
 val.genes.set <- "g9.pCR.DDFS.scatter.genes"
 val.genes <- get(val.genes.set)
@@ -2320,7 +2317,7 @@ assign(paste("sig.", coh, sep = ""), sig)
 #
 #' **pCR Plots in MEDI validation Cohort **
 #' 
-#' *Figures 6m, 6o, 6q, 6s, 6u 
+#' *Figures 6m, 6o, 6p 
 #
 
 # -------------------------------------------------------------------------
@@ -2377,7 +2374,7 @@ for (i in 1:nrow(sig.pairs)){
 
 # Distribution of pCR according signatures --------------------------------
 
-# Figures 6q, 6s, 6u
+# Figure 6p
 
 colpal <- c("#D55E00", "#009E73")
 
@@ -2404,7 +2401,7 @@ for(plotsig in siglist) {
     ggtitle(paste(coh, " ", plotsig)) +
     xlab(plotsig)
   # export plot
-  fn <- paste0("out/pCRDistr_", coh, "_", plotsig, ".pdf")
+  fn <- paste0("out/Fig6p_pCRDistr_", coh, "_", plotsig, ".pdf")
   pdf(file = fn,
       width = 11,
       height = 8.5)
