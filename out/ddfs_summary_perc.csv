@@ -1,0 +1,7 @@
+"";"g0.all";"g1.immune";"g2.proliferation";"g3.stromalEMT";"g4.stromal.NonImmune"
+"all";100;100;100;100;100
+"durva.good";39,21;16,36;5,44;7,95;0,51
+"durva.poor";4,36;0;0,76;0,08;0,46
+"plac.good";4,53;1,52;0,16;0,46;0
+"plac.poor";26,14;0,27;1,86;4;2,72
+"unique";10,28;12,99;11,27;10,88;9,09
