@@ -12,8 +12,8 @@ Molecular adaptation to neoadjuvant immunotherapy in triple-negative breast canc
 ## This resource contains the following data regarding the analyses described in the paper:
 
 
-1. [*2024-09-23-G9-HTG-Suppl.pdf*](https://github.com/tkarn/G9-HTG/blob/main/2024-09-23-G9-HTG-Suppl.pdf):  An R Markdown file containing the analyses and generation of figures in the paper based on OR and HR data for 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform. This file also includes validation analyses and figures in three additional TNBC cohorts with RNA-Seq data for the respective genes.
-2. [*2024-09-23-G9-HTG-Suppl.R*](https://github.com/tkarn/G9-HTG/blob/main/2024-09-23-G9-HTG-Suppl.R):  The R-script that generates this R-Markdown file and the output below.
+1. [*2024-10-18-G9-HTG-Suppl.pdf*](https://github.com/tkarn/G9-HTG/blob/main/2024-10-18-G9-HTG-Suppl.pdf):  An R Markdown file containing the analyses and generation of figures in the paper based on OR and HR data for 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform. This file also includes validation analyses and figures in three additional TNBC cohorts with RNA-Seq data for the respective genes.
+2. [*2024-10-18-G9-HTG-Suppl.R*](https://github.com/tkarn/G9-HTG/blob/main/2024-10-18-G9-HTG-Suppl.R):  The R-script that generates this R-Markdown file and the output below.
 
 
 ## Directory [*input*](https://github.com/tkarn/G9-HTG/tree/main/input/) contains:
