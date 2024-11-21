@@ -4,8 +4,10 @@
 ## Supplementary Resource to [PMID 39566464](https://pubmed.ncbi.nlm.nih.gov/39566464/):  
 
 Denkert C et al. Cell Rep Med. 2024 Nov 19;5(11):101825.
+
 Molecular adaptation to neoadjuvant immunotherapy in triple-negative breast cancer.
-[*DOI: 10.1016/j.xcrm.2024.101825*](https://doi.org/10.1016/j.xcrm.2024.101825)
+
+[DOI: 10.1016/j.xcrm.2024.101825](https://doi.org/10.1016/j.xcrm.2024.101825)
 
 ************************************************************
 
