@@ -1,9 +1,9 @@
 # G9-HTG
 
 
-## Supplementary Resource to:  
+## Supplementary Resource to PMID 39566464:  
 
-Denkert C et al. 2024 Cell Rep Med.
+Denkert C et al. Cell Rep Med. 2024 Nov 19;5(11):101825. PMID: 39566464
 
 Molecular adaptation to neoadjuvant immunotherapy in triple-negative breast cancer.
 
